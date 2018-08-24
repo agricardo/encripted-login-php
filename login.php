@@ -44,7 +44,7 @@ $con = new mysqli('localhost', 'root', '', 'passwordHashing');
 <br>
 <?php if($msg != "") echo $msg . "<br><br></br>"; ?>
 <br>
-<form method="POST" action="register.php">
+<form method="POST" action="login.php">
 
 <input name="email" placeholder="email" type="email"><br><br>
 <input name="password" type="password" placeholder="password"><br><br>
