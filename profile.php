@@ -16,9 +16,3 @@
 <a href="home.php">Home</a><br/>
 <a href="login.php">Logout</a>
 
-<form action="profile.php" method="POST">
-    <input type="text" name="name" placeholder="name" required />
-    <input type="email" name="email" placeholder="email" required />
-    <!-- <input type="password" name="password" placeholder="password" required /> -->
-    <input type="submit" value="Change"/>
-</form>
